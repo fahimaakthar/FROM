@@ -1,0 +1,200 @@
+font-family: 'Playfair Display', serif;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url(assets/images\ \(8\).jfif);
+    background-position: center;
+    background-size: cover;
+    font-family:sans-serif ;
+    margin-top: 40px;
+}
+.regform{
+    width: 800px;
+    background-color: rgb(160, 141, 141);
+    margin: auto;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+   border-radius: 15px 15px 0px 0px ;
+}
+.main{
+    background-color: rgb(189, 171, 171);
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    opacity: 2;
+    transition:opacity 5s ;
+}
+.form{
+    padding: 10px;
+}
+#name{
+    width: 10%;
+    height: 120px;
+    margin-right: 20px;
+}
+.name {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 125px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 900;
+}
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.lastname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: rgb(10, 10, 9);
+}
+.firstlabel{
+    position: relative;
+    color: rgb(13, 13, 14);
+    text-transform: capitalize;
+    font-size: 16px;
+    bottom: -10px;
+}
+.lastlabel{
+    position: relative;
+    color: rgb(6, 6, 7);
+    text-transform: capitalize;
+    font-size: 16px;
+    bottom: -10px; 
+
+}
+.company{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+}
+.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+}
+
+.code{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+}
+.number{
+    position: relative;
+    left:400px;
+    top:-95px;
+    line-height: 40px;
+    width: 280px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+}
+.area-code{
+    position: relative;
+    color: #000000;
+    text-transform: capitalize;
+   font-size: 16px;
+    left: 210px;
+    top:-30px;
+}
+.phone-number{
+    position: relative;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 500px;
+    top: -83px;
+}
+.option{
+    position: relative;
+    left: 200px;
+    top:-80px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    overflow: hidden;
+}
+.option option{
+    font-size: 20px;
+}
+.clind{
+    margin-left:35px ;
+    color: black;
+    font-size: 25px;
+}
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color:black;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.submit{
+    background-color: rgb(245, 237, 237);
+    display: block;
+    margin: 30px 5px 5px 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgb(14, 12, 12);
+    padding: 15px 70px ;
+    outline: none;
+    color: rgb(14, 13, 14);
+    cursor: pointer;
+    transition: 0.25px;
+    
+}
+.submit:hover{
+    background:black;
+    color: blanchedalmond;
+}
+
+
